@@ -82,7 +82,7 @@ var parsedFile = ediFile.parse(fileContent);
 
 `parsedFile` will contain the parsed file separated by each type of register:
 
-```json
+```javascript
 { '0': 
    [ { user_name: 'JOHN APPLESEED',
        user_gender: 'M',
