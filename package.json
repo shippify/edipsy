@@ -1,0 +1,25 @@
+{
+  "name": "edipsy",
+  "version": "1.0.0",
+  "description": "Decent EDI file parsing in Node.js.",
+  "keywords": [
+    "edi",
+    "parse",
+    "file",
+	"schema"
+  ],
+  "author": {
+    "name": "Pedro Franceschi",
+    "email": "pedrohfranceschi@gmail.com",
+    "url": "https://pagar.me/"
+  },
+  "dependencies": {
+    "lodash": "3.5.0",
+    "mocha": "2.0.1",
+    "moment": "2.6.0",
+    "should": "3.3.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
