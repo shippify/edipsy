@@ -1,27 +1,28 @@
 {
-  "name": "edipsy",
-  "version": "1.0.0",
-  "description": "Decent EDI file parsing in Node.js.",
-  "keywords": [
-    "edi",
-    "parse",
-    "file",
-    "schema"
-  ],
-  "author": {
-    "name": "Pedro Franceschi",
-    "email": "pedrohfranceschi@gmail.com",
-    "url": "https://pagar.me/"
-  },
-  "dependencies": {
-    "coveralls": "^2.11.2",
-    "lodash": "3.5.0",
-    "mocha": "2.0.1",
-    "mocha-lcov-reporter": "0.0.2",
-    "moment": "2.6.0",
-    "should": "3.3.1"
-  },
-  "scripts": {
-    "test": "mocha"
-  }
+	"name": "edipsy",
+	"version": "1.0.0",
+	"description": "Decent EDI file parsing in Node.js.",
+	"keywords": [
+		"edi",
+		"parse",
+		"file",
+		"schema"
+	],
+	"author": {
+		"name": "Pedro Franceschi",
+		"email": "pedrohfranceschi@gmail.com",
+		"url": "https://pagar.me/"
+	},
+	"dependencies": {
+		"coveralls": "^2.11.2",
+		"lodash": "3.5.0",
+		"mocha": "2.0.1",
+		"mocha-lcov-reporter": "0.0.2",
+		"moment": "2.6.0",
+		"should": "3.3.1",
+		"istanbul": "0.3.15"
+	},
+	"scripts": {
+		"test": "script/test"
+	}
 }
