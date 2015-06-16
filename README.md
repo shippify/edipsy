@@ -1,6 +1,8 @@
 Edipsy
 ===========
 
+[![Build Status](https://travis-ci.org/pagarme/edipsy.svg)](https://travis-ci.org/pagarme/edipsy) [![Coverage Status](https://coveralls.io/repos/pagarme/edipsy/badge.svg?branch=master)](https://coveralls.io/r/pagarme/edipsy?branch=master)
+
 Decent EDI file parsing in Node.js.
 
 ## Defining file schema
