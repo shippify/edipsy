@@ -70,6 +70,31 @@ describe("EdiFile", function(){
 		});
 	});
 
+	describe("when creating with register without end or len", function(){
+		var ediFile, exception;
+
+		before(function(done){
+			try {
+				ediFile = new EdiFile({
+					"0": [{
+						start: 2
+					}, {
+						start: 5,
+						end: 7
+					}]
+				});
+			} catch(e) {
+				exception = e;
+			}
+
+			done();
+		});
+
+		it("should throw exception", function(){
+			exception.should.be.ok;
+		});
+	});	
+
 	describe("when creating with valid registers definition ", function(){
 		var ediFile, exception;
 
@@ -84,7 +109,7 @@ describe("EdiFile", function(){
 					}, {
 						name: 'user_gender',
 						start: 18,
-						end: 18,
+						len: 1,
 						type: 'string',
 					}, {
 						name: 'user_ssn',
@@ -105,7 +130,7 @@ describe("EdiFile", function(){
 					}, {
 						name: 'product_name',
 						start: 8,
-						end: 19,
+						len: 12,
 						type: 'string',
 					}, {
 						name: 'product_bought_at',
