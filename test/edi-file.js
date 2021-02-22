@@ -273,7 +273,7 @@ describe("EdiFile", function(){
 				});
 
 				it("first line should have the correct user_ssn", function(){
-					parsedFile['0'][0].should.have.property('user_ssn', '11921713296');
+					parsedFile['0'][0].should.have.property('user_ssn', 11921713296);
 				});
 
 				it("first line should have the correct user_born_at", function(){
