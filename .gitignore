@@ -27,4 +27,4 @@ build/Release
 node_modules
 
 package-lock.json
-test/edi-file-luxottica.js
+test/edi-file-*.js
