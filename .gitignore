@@ -28,3 +28,7 @@ node_modules
 
 package-lock.json
 test/edi-file-*.js
+test/edify.js
+test-files/conemb.config.json
+test-files/conemb.edifable.json
+test/edify.test.js
