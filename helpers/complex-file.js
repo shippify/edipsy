@@ -39,6 +39,7 @@ exports.setBuildInsertKeys = (registerID, positions, tree) => {
 };
 
 exports.resetRegisterPositions = (registerID, positions, tree) => {
+	
 	const newRegisterPositions = _.cloneDeep(positions);
 	const anthecesors = _.cloneDeep(tree.nodes[registerID].anthecesors);
 
