@@ -25,3 +25,10 @@ build/Release
 # Dependency directory
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 node_modules
+
+package-lock.json
+test/edi-file-*.js
+test/edify.js
+test-files/conemb.config.json
+test-files/conemb.edifable.json
+test/edify.test.js
